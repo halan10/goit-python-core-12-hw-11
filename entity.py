@@ -71,9 +71,6 @@ class Record:
 
     def add_phone(self, phone):
         self.phones.append(phone)
-    
-    def add_name(self, name):
-        self.phones.append(name)
 
     def change_phone(self, index, phone):
         self.phones[index]=phone
